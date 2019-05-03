@@ -1,5 +1,5 @@
 # Start with a base image containing Java runtime
-FROM openjdk:11.0-jdk-slim
+FROM openjdk:8u212-jdk-slim
 # Add Maintainer Info
 LABEL maintainer="savindi.narmada@gmail.com"
 # Add a volume pointing to /tmp
